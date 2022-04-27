@@ -1,0 +1,9 @@
+spec:
+  name: sample-django
+  services:
+    - name: sample-django
+      git:
+        branch: main
+        repo_clone_url: https://github.com/jestin-devops/sample-django.git
+    databases:
+    - name: example-db
